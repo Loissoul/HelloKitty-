@@ -77,6 +77,8 @@ static int step = 0;
     [self.paths addObject:currenPath];
     [self.colorArray addObject:[self.drawCollor copy]];
     [self setNeedsDisplay];
+    
+    NSLog(@"hell world");
 }
 
 /**
